@@ -43,14 +43,14 @@ public class SaveCv extends AppCompatActivity {
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
                 super.onPageStarted(view, url, favicon);
-                loding.setVisibility(View.VISIBLE);
+                loding.setVisibility(View.GONE);
 
 
             }
             @Override public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
                 loding.setVisibility(View.GONE);
-                web.setVisibility(View.VISIBLE);
+                web.setVisibility(View.INVISIBLE);
 
 
             }
