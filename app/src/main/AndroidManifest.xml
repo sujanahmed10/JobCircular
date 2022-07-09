@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sujansoft.alljobcircularbd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JobCircular"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="32">
+        <activity
+            android:name=".SaveCv"
+            android:exported="false" />
+        <activity
+            android:name=".OpenJobList"
+            android:exported="false" />
+        <activity
+            android:name=".SaveDucument"
+            android:exported="false" />
+        <activity
+            android:name=".JobsExamAlertb2"
+            android:exported="false" />
+        <activity
+            android:name=".AllJobExamDate"
+            android:exported="false" />
+        <activity
+            android:name=".JobExamAlert"
+            android:exported="false" />
+        <activity
+            android:name=".CholomanGoveJob"
+            android:exported="false" />
+        <activity
+            android:name=".SpElectrician"
+            android:exported="false" />
+        <activity
+            android:name=".SpDataEntry"
+            android:exported="false" />
+        <activity
+            android:name=".SpecialJob"
+            android:exported="false" />
+        <activity
+            android:name=".PrivetHotJob"
+            android:exported="false" />
+        <activity
+            android:name=".PrivetDateOver"
+            android:exported="false" />
+        <activity
+            android:name=".GoveHotJob"
+            android:exported="false" />
+        <activity
+            android:name=".GoveDateOver"
+            android:exported="false" />
+        <activity
+            android:name=".AllJob"
+            android:exported="false" />
+        <activity
+            android:name=".JobCatagory"
+            android:exported="false" />
+        <activity
+            android:name=".PrivetJob"
+            android:exported="false" />
+        <activity
+            android:name=".GoveMentJob"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JobCatagory"
+    android:background="#F13B79"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.8">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lottie_rawRes="@raw/job"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="#EFEFEF"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:weightSum="7" >
+
+        <LinearLayout
+            android:id="@+id/alljob"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1">
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="সকল জব দেখুন"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#109C8F"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+            </soup.neumorphism.NeumorphCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cholomangovejob"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1">
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="চলমান সকল সরকারি চাকরির নিয়োগ তালিকা"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#109C8F"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+            </soup.neumorphism.NeumorphCardView>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/govedateoverjob"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1">
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="সরকারি চাকরি আবেদনের শেষ তারিখ"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#109C8F"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+            </soup.neumorphism.NeumorphCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/govehotjob"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1">
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="সরকারি হট জব"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#109C8F"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+            </soup.neumorphism.NeumorphCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/privetdateoverjob"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1">
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="বেসরকারি চাকরি আবেদনের শেষ তারিখ"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#109C8F"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+            </soup.neumorphism.NeumorphCardView>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/privethotjob"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1">
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="বেসরকারি হট জব"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#109C8F"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+            </soup.neumorphism.NeumorphCardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            >
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="0.2">
+
+    </LinearLayout>
+
+
+</LinearLayout>

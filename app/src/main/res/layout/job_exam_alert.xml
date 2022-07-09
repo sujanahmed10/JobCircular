@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JobExamAlert"
+    android:background="#F13B79"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.8">
+
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lottie_rawRes="@raw/job"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="#EFEFEF"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:weightSum="5" >
+
+        <LinearLayout
+            android:id="@+id/openjoblist"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1">
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Open Job List"
+                    android:textColor="#109C8F"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/alljobexamdate"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1">
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="All Jobs Exam Date"
+                    android:textColor="#109C8F"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/jobexamalertb2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1">
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jobs Exam Alert"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#109C8F"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+            </soup.neumorphism.NeumorphCardView>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/saveducument"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1">
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Save Ducument"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#109C8F"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+            </soup.neumorphism.NeumorphCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/savecv"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            >
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Save CV"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#109C8F"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+            </soup.neumorphism.NeumorphCardView>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:background="#EFEFEF"
+            >
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="0.2">
+
+    </LinearLayout>
+
+
+</LinearLayout>

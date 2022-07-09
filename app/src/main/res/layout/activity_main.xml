@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/teal_200"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#F6EBEF"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_weight="0.4">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    >
+
+                    <soup.neumorphism.NeumorphCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="0dp"
+                        android:background="@color/black"
+
+                        >
+                        <LinearLayout
+                            android:id="@+id/govejob"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:background="#F4F4F4">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/gove_logo1"
+                                android:layout_marginTop="30dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="সরকারি চাকরী"
+                                android:gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/black"/>
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                    </soup.neumorphism.NeumorphCardView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical">
+                    <soup.neumorphism.NeumorphCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="0dp"
+                        android:background="@color/black"
+
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/privetjob"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:background="#F4F4F4">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/privet"
+                                android:layout_marginTop="30dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="বেসরকারি চাকরী"
+                                android:gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/black"/>
+
+
+
+
+
+                        </LinearLayout>
+
+
+                    </soup.neumorphism.NeumorphCardView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="#F6EBEF"
+        android:layout_weight="2.5"
+        android:orientation="vertical"
+        android:weightSum="7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1">
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed">
+
+                >
+                <LinearLayout
+                    android:id="@+id/jobcatagory"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                       android:src="@drawable/job_icon"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Job Catagory"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textStyle="italic"/>
+
+
+
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1">
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed"
+                >
+                <LinearLayout
+                    android:id="@+id/specialjob"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        >
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/job_icon"
+                            android:layout_marginLeft="10dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Special Job Catagory"
+                            android:textSize="20dp"
+                            android:textColor="@color/black"
+                            android:gravity="center"
+                            android:textStyle="italic"/>
+
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1">
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        >
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/job_icon"
+                            android:layout_marginLeft="10dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Job Prepration"
+                            android:textSize="20dp"
+                            android:textColor="@color/black"
+                            android:gravity="center"
+                            android:textStyle="italic"/>
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1">
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        >
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/job_icon"
+                            android:layout_marginLeft="10dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Job Question Bank"
+                            android:textSize="20dp"
+                            android:textColor="@color/black"
+                            android:gravity="center"
+                            android:textStyle="italic"/>
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1">
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed"
+                >
+                <LinearLayout
+                    android:id="@+id/jobexamalert"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        >
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/job_icon"
+                            android:layout_marginLeft="10dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Job Exam time Alert"
+                            android:textSize="20dp"
+                            android:textColor="@color/black"
+                            android:gravity="center"
+                            android:textStyle="italic"/>
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1">
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/job_icon"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Age Calcluter"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textStyle="italic"/>
+
+
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1">
+
+            <soup.neumorphism.NeumorphCardView
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:neumorph_shapeType="pressed"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/job_icon"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="About Us"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textStyle="italic"/>
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="0.1">
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+

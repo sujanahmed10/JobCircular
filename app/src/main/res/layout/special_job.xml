@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpecialJob"
+    android:background="#E11B1B"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_weight="1.9"
+        android:background="#EFEFEF">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <soup.neumorphism.NeumorphCardView
+                    android:id="@+id/dataEntry"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ডাটা এন্ট্রি/কম্পিউটার অপারেটর (৪৪)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:id="@+id/Electrician"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" ইলেকট্রিশিয়ান/ইলেকট্রনিকস্ টেক. (৩১)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="প্যাথলজিস্ট/ল্যাব সহকারী (১২)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="মেকানিক/টেকনিশিয়ান (২৭)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ড্রাইভার (২৬)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="সিকিউরিটি গার্ড (২৫)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="নার্স (২১)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="শেফ/বাবুর্চী (৩০)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ওয়েটার/ওয়েট্রেস (১৪)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" ডেলিভারী ম্যান (১৪)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="পিয়ন (৪০)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="শো-রুম সহকারী/সেলসম্যান (১৪)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" গ্রাফিক্স ডিজাইনার (৪৬)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="সেলস রিপ্রেজেন্টেটিভ/বিক্রয় প্রতিনিধি (২০)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="অন্যান্য (৩৮)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CAD অপারেটর (৬)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="কার্পেন্টার (৩)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ওয়েল্ডার (৪)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="প্লাম্বার/পাইপফিটিং (২)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" হাউজকিপার (৮)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="গার্মেন্টস টেকনিশিয়ান (৩)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" রাজমিস্ত্রি/নির্মাণ কর্মী (১)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" স্যুইং মেশিন অপারেটর (২)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ক্লিনার (১৪)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:neumorph_shapeType="pressed">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" মালী (২)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#109C8F"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_weight="1"
+        android:background="@color/teal_200">
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
