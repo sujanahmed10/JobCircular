@@ -12,7 +12,7 @@ import android.webkit.WebViewClient;
 
 import com.airbnb.lottie.LottieAnimationView;
 
-public class SpDataEntry extends AppCompatActivity {
+public class GeneralKnowledge extends AppCompatActivity {
 
     LottieAnimationView loding;
     WebView web;
@@ -21,12 +21,10 @@ public class SpDataEntry extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.sp_data_entry);
+        setContentView(R.layout.general_knowledge);
 
         web= findViewById(R.id.web);
         loding=findViewById(R.id.loding);
-
-
 
         // Enabling some setting so that browser can work properly
 
@@ -47,7 +45,8 @@ public class SpDataEntry extends AppCompatActivity {
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
                 super.onPageStarted(view, url, favicon);
-                loding.setVisibility(View.VISIBLE);
+                loding.setVisibility(View.INVISIBLE);
+
 
             }
             @Override public void onPageFinished(WebView view, String url) {
@@ -63,7 +62,7 @@ public class SpDataEntry extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= 19) {
             web.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
         }
-        web.loadUrl("https://jobs.bdjobs.com/bn/jobsearchbn.asp?fcatId=61&icatId=");
+        web.loadUrl("https://jobtestbd.com/general-knowledge-bank/");
 
 
 
@@ -81,3 +80,5 @@ public class SpDataEntry extends AppCompatActivity {
 
 
 }
+
+

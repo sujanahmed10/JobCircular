@@ -12,7 +12,7 @@ import android.webkit.WebViewClient;
 
 import com.airbnb.lottie.LottieAnimationView;
 
-public class SpElectrician extends AppCompatActivity {
+public class GeneralEnglish extends AppCompatActivity {
 
     LottieAnimationView loding;
     WebView web;
@@ -21,12 +21,10 @@ public class SpElectrician extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.sp_electrician);
+        setContentView(R.layout.general_english);
 
         web= findViewById(R.id.web);
         loding=findViewById(R.id.loding);
-
-
 
         // Enabling some setting so that browser can work properly
 
@@ -47,13 +45,15 @@ public class SpElectrician extends AppCompatActivity {
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
                 super.onPageStarted(view, url, favicon);
-                loding.setVisibility(View.VISIBLE);
+                loding.setVisibility(View.INVISIBLE);
+
 
             }
             @Override public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
                 loding.setVisibility(View.GONE);
                 web.setVisibility(View.VISIBLE);
+
 
             }
 
@@ -62,12 +62,12 @@ public class SpElectrician extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= 19) {
             web.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
         }
-        web.loadUrl("https://jobs.bdjobs.com/bn/jobsearchbn.asp?fcatId=66&icatId=");
-
+        web.loadUrl("https://jobtestbd.com/general-english/");
 
 
 
     }
+
     @Override
     public void onBackPressed() {
         if (web.canGoBack()) {
@@ -77,4 +77,8 @@ public class SpElectrician extends AppCompatActivity {
             finish();
 
     }
+
+
 }
+
+

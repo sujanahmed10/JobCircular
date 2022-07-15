@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SpElectrician">
+    tools:context=".ComputerMcq">
 
     <WebView
         android:id="@+id/web"
@@ -15,15 +15,13 @@
         android:id="@+id/loding"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:lottie_rawRes="@raw/load_ding"
+        app:lottie_rawRes="@raw/lod"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
         android:layout_gravity="center_horizontal"
-        android:background="@color/white"
+
+
 
         />
-
-
-
 
 </RelativeLayout>
