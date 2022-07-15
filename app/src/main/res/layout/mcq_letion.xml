@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".McqLetion"
+    android:background="@color/teal_200"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#EFEFEF"
+        android:layout_weight="0.1"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MCQ অনুশীলন"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    //===============================================
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="625dp"
+        android:layout_weight="2.7">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/purple_200">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="#F6EBEF"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
+                            >
+
+                            <soup.neumorphism.NeumorphCardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="0dp"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="0dp"
+                                android:background="@color/black"
+
+                                >
+                                <LinearLayout
+                                    android:id="@+id/analytical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="#F4F4F4">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/analitics"
+                                        android:layout_marginTop="30dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:text="Analytical"
+                                        android:gravity="center"
+                                        android:textSize="20dp"
+                                        android:textColor="@color/black"/>
+
+
+
+
+
+                                </LinearLayout>
+
+
+
+                            </soup.neumorphism.NeumorphCardView>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical">
+                            <soup.neumorphism.NeumorphCardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="0dp"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="0dp"
+                                android:background="@color/black"
+
+                                >
+
+                                <LinearLayout
+                                    android:id="@+id/computer"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="#F4F4F4">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/computer"
+                                        android:layout_marginTop="30dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:text="Computer"
+                                        android:gravity="center"
+                                        android:textSize="20dp"
+                                        android:textColor="@color/black"/>
+
+
+
+
+
+                                </LinearLayout>
+
+
+                            </soup.neumorphism.NeumorphCardView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/purple_500">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="#F6EBEF"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_weight="0.4">
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
+                            >
+
+                            <soup.neumorphism.NeumorphCardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="0dp"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="0dp"
+                                android:background="@color/black"
+
+                                >
+                                <LinearLayout
+                                    android:id="@+id/englishbank"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="#F4F4F4">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/book"
+                                        android:layout_marginTop="30dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:text="English For Bank"
+                                        android:gravity="center"
+                                        android:textSize="20dp"
+                                        android:textColor="@color/black"/>
+
+
+
+
+
+                                </LinearLayout>
+
+
+
+                            </soup.neumorphism.NeumorphCardView>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical">
+                            <soup.neumorphism.NeumorphCardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="0dp"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="0dp"
+                                android:background="@color/black"
+
+                                >
+
+                                <LinearLayout
+                                    android:id="@+id/general"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="#F4F4F4">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/book_e"
+                                        android:layout_marginTop="30dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:text="General English"
+                                        android:gravity="center"
+                                        android:textSize="20dp"
+                                        android:textColor="@color/black"/>
+
+
+
+
+
+                                </LinearLayout>
+
+
+                            </soup.neumorphism.NeumorphCardView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="#F6EBEF"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_weight="0.4">
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
+                            >
+
+                            <soup.neumorphism.NeumorphCardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="0dp"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="0dp"
+                                android:background="@color/black"
+
+                                >
+                                <LinearLayout
+                                    android:id="@+id/internatinal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="#F4F4F4">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/internatinal"
+                                        android:layout_marginTop="30dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:text="International Affairs"
+                                        android:gravity="center"
+                                        android:textSize="20dp"
+                                        android:textColor="@color/black"/>
+
+
+
+
+
+                                </LinearLayout>
+
+
+
+                            </soup.neumorphism.NeumorphCardView>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical">
+                            <soup.neumorphism.NeumorphCardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="0dp"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="0dp"
+                                android:background="@color/black"
+
+                                >
+
+                                <LinearLayout
+                                    android:id="@+id/mathbank"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="#F4F4F4">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/math"
+                                        android:layout_marginTop="30dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:text="Math for Bank"
+                                        android:gravity="center"
+                                        android:textSize="20dp"
+                                        android:textColor="@color/black"/>
+
+
+
+
+
+                                </LinearLayout>
+
+
+                            </soup.neumorphism.NeumorphCardView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/teal_700">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="#F6EBEF"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_weight="0.4">
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
+                            >
+
+                            <soup.neumorphism.NeumorphCardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="0dp"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="0dp"
+                                android:background="@color/black"
+
+                                >
+                                <LinearLayout
+                                    android:id="@+id/generalmath"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="#F4F4F4">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/math_2"
+                                        android:layout_marginTop="30dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:text="General Math"
+                                        android:gravity="center"
+                                        android:textSize="20dp"
+                                        android:textColor="@color/black"/>
+
+
+
+
+
+                                </LinearLayout>
+
+
+
+                            </soup.neumorphism.NeumorphCardView>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical">
+                            <soup.neumorphism.NeumorphCardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="0dp"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="0dp"
+                                android:background="@color/black"
+
+                                >
+
+                                <LinearLayout
+                                    android:id="@+id/banglamcq"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="#F4F4F4">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/book_3"
+                                        android:layout_marginTop="30dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:text="Bangla"
+                                        android:gravity="center"
+                                        android:textSize="20dp"
+                                        android:textColor="@color/black"/>
+
+
+
+
+
+                                </LinearLayout>
+
+                            </soup.neumorphism.NeumorphCardView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/purple_200">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="#F6EBEF"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_weight="0.4">
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
+                            >
+
+                            <soup.neumorphism.NeumorphCardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="0dp"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="0dp"
+                                android:background="@color/black"
+
+                                >
+                                <LinearLayout
+                                    android:id="@+id/banglabank"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="#F4F4F4">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/bangla_bank"
+                                        android:layout_marginTop="30dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:text="Bangla For Bank"
+                                        android:gravity="center"
+                                        android:textSize="20dp"
+                                        android:textColor="@color/black"/>
+
+
+
+
+
+                                </LinearLayout>
+
+                            </soup.neumorphism.NeumorphCardView>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical">
+                            <soup.neumorphism.NeumorphCardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="0dp"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="0dp"
+                                android:background="@color/black"
+
+                                >
+
+                                <LinearLayout
+                                    android:id="@+id/bangladeshaffairs"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="#F4F4F4">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/bangla_affairs"
+                                        android:layout_marginTop="30dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:text="Bangladesh Affairs"
+                                        android:gravity="center"
+                                        android:textSize="20dp"
+                                        android:textColor="@color/black"/>
+
+
+
+
+
+                                </LinearLayout>
+
+
+                            </soup.neumorphism.NeumorphCardView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/teal_200">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="#F6EBEF"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_weight="0.4">
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
+                            >
+
+                            <soup.neumorphism.NeumorphCardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="0dp"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="0dp"
+                                android:background="@color/black"
+
+                                >
+                                <LinearLayout
+                                    android:id="@+id/GeneralKnowledge"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="#F4F4F4">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/generar"
+                                        android:layout_marginTop="30dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:text="General Knowledge"
+                                        android:gravity="center"
+                                        android:textSize="20dp"
+                                        android:textColor="@color/black"/>
+
+
+
+
+
+                                </LinearLayout>
+
+
+
+                            </soup.neumorphism.NeumorphCardView>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical">
+                            <soup.neumorphism.NeumorphCardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="0dp"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="0dp"
+                                android:background="@color/black"
+
+                                >
+
+                                <LinearLayout
+                                    android:id="@+id/GeneralScience"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:background="#F4F4F4">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/general"
+                                        android:layout_marginTop="30dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:text="General Science"
+                                        android:gravity="center"
+                                        android:textSize="20dp"
+                                        android:textColor="@color/black"/>
+
+
+
+
+
+                                </LinearLayout>
+
+
+                            </soup.neumorphism.NeumorphCardView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#E4618D"
+        android:layout_weight="0.2">
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -18,6 +18,48 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="32">
         <activity
+            android:name=".GeneralScience"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralKnowledge"
+            android:exported="false" />
+        <activity
+            android:name=".BangladeshAffairs"
+            android:exported="false" />
+        <activity
+            android:name=".BanglaBank"
+            android:exported="false" />
+        <activity
+            android:name=".BanglaMcq"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralMath"
+            android:exported="false" />
+        <activity
+            android:name=".MathBank"
+            android:exported="false" />
+        <activity
+            android:name=".InternatinalAffairs"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralEnglish"
+            android:exported="false" />
+        <activity
+            android:name=".EnglishBank"
+            android:exported="false" />
+        <activity
+            android:name=".ComputerMcq"
+            android:exported="false" />
+        <activity
+            android:name=".AnalyticalMcq"
+            android:exported="false" />
+        <activity
+            android:name=".McqLetion"
+            android:exported="false" />
+        <activity
+            android:name=".JobPrepration"
+            android:exported="false" />
+        <activity
             android:name=".SaveCv"
             android:exported="false" />
         <activity
@@ -37,15 +79,6 @@
             android:exported="false" />
         <activity
             android:name=".CholomanGoveJob"
-            android:exported="false" />
-        <activity
-            android:name=".SpElectrician"
-            android:exported="false" />
-        <activity
-            android:name=".SpDataEntry"
-            android:exported="false" />
-        <activity
-            android:name=".SpecialJob"
             android:exported="false" />
         <activity
             android:name=".PrivetHotJob"

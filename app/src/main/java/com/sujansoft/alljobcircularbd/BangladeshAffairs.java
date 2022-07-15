@@ -12,7 +12,8 @@ import android.webkit.WebViewClient;
 
 import com.airbnb.lottie.LottieAnimationView;
 
-public class SaveCv extends AppCompatActivity {
+public class BangladeshAffairs extends AppCompatActivity {
+
     LottieAnimationView loding;
     WebView web;
     String USER_AGENT_ = "Mozilla/5.0 (Linux; Android 4.1.1; Galaxy Nexus Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19";
@@ -20,7 +21,8 @@ public class SaveCv extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.save_cv);
+        setContentView(R.layout.bangladesh_affairs);
+
         web= findViewById(R.id.web);
         loding=findViewById(R.id.loding);
 
@@ -60,7 +62,7 @@ public class SaveCv extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= 19) {
             web.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
         }
-        web.loadUrl("https://studyonlinebd.com/user/document-save/?type=5");
+        web.loadUrl("https://jobtestbd.com/bangladesh-affairs/");
 
 
 
@@ -78,3 +80,5 @@ public class SaveCv extends AppCompatActivity {
 
 
 }
+
+

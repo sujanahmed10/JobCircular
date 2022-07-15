@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-    LinearLayout govejob,privetjob,jobcatagory,specialjob,jobexamalert;
+    LinearLayout govejob,privetjob,jobcatagory,jobexamalert,jobprepration;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,8 +20,9 @@ public class MainActivity extends AppCompatActivity {
         govejob = findViewById(R.id.govejob);
         privetjob = findViewById(R.id.privetjob);
         jobcatagory = findViewById(R.id.jobcatagory);
-        specialjob = findViewById(R.id.specialjob);
+
         jobexamalert = findViewById(R.id.jobexamalert);
+        jobprepration =findViewById(R.id.jobprepration);
 
 
 
@@ -68,15 +69,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        specialjob.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent myIntent= new Intent(MainActivity.this,SpecialJob.class);
-                startActivity(myIntent);
-
-            }
-        });
 
 
         jobexamalert.setOnClickListener(new View.OnClickListener() {
@@ -84,6 +76,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent myIntent= new Intent(MainActivity.this,JobExamAlert.class);
+                startActivity(myIntent);
+
+            }
+        });
+
+
+        jobprepration.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent myIntent= new Intent(MainActivity.this,JobPrepration.class);
                 startActivity(myIntent);
 
             }
