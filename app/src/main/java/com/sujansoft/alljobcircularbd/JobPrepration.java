@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 
 public class JobPrepration extends AppCompatActivity {
 
-    LinearLayout mcq;
+    LinearLayout mcq,jobexamquestion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,7 @@ public class JobPrepration extends AppCompatActivity {
         setContentView(R.layout.job_prepration);
 
         mcq = findViewById(R.id.mcq);
+        jobexamquestion = findViewById(R.id.jobexamquestion);
 
 
 
@@ -26,6 +27,17 @@ public class JobPrepration extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent myIntent = new Intent(JobPrepration.this , McqLetion.class);
+                startActivity(myIntent);
+
+
+            }
+        });
+
+        jobexamquestion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent myIntent = new Intent(JobPrepration.this , GoveJobExamQuestion.class);
                 startActivity(myIntent);
 
 

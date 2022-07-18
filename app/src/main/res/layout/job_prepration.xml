@@ -70,7 +70,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/alljobexamdate"
+            android:id="@+id/jobexamquestion"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:layout_weight="1">
@@ -85,7 +85,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:text="All Jobs Exam Date"
+                    android:text="Previous Govt: Job Exam Question"
                     android:textColor="#109C8F"
                     android:textSize="20sp"
                     android:textStyle="bold" />

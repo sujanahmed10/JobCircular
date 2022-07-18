@@ -18,6 +18,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="32">
         <activity
+            android:name=".GoveJobExamQuestion"
+            android:exported="false" />
+        <activity
             android:name=".GeneralScience"
             android:exported="false" />
         <activity
