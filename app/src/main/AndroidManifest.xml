@@ -18,6 +18,81 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="32">
         <activity
+            android:name=".BankJobQuestion"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs10"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs11"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs12"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs13"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs14"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs15"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs16"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs17"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs18"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs19"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs20"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs21"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs22"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs23"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs24"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs25"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs26"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs28"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs29"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs30"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs31"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs32"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs33"
+            android:exported="false" />
+        <activity
+            android:name=".Bcs34"
+            android:exported="false" />
+        <activity
             android:name=".GoveJobExamQuestion"
             android:exported="false" />
         <activity
