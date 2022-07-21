@@ -53,6 +53,7 @@
                 >
 
                 <LinearLayout
+                    android:id="@+id/bcs34"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -81,6 +82,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/bcs33"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -95,7 +97,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="33th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -109,6 +111,7 @@
 
 
                 <LinearLayout
+                    android:id="@+id/bcs32"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -123,7 +126,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="32th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -137,6 +140,7 @@
 
 
                 <LinearLayout
+                    android:id="@+id/bcs31"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -151,7 +155,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="31th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -165,6 +169,7 @@
 
 
                 <LinearLayout
+                    android:id="@+id/bcs30"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -179,36 +184,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
-                            android:textColor="#000000"
-                            android:gravity="center"
-                            android:textSize="25dp"
-                            />
-
-
-                    </soup.neumorphism.NeumorphCardView>
-
-
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="150dp"
-                    android:layout_height="70dp"
-                    android:layout_gravity="center"
-                    android:layout_margin="10sp"
-                    >
-                    <soup.neumorphism.NeumorphCardView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-
-                        >
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="30th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -223,6 +199,7 @@
 
 
                 <LinearLayout
+                    android:id="@+id/bcs29"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -237,7 +214,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="29th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -252,6 +229,7 @@
 
 
                 <LinearLayout
+                    android:id="@+id/bcs28"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -266,7 +244,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="28th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -280,8 +258,8 @@
                 </LinearLayout>
 
 
-
                 <LinearLayout
+                    android:id="@+id/bcs27"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -296,7 +274,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="27th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -312,6 +290,7 @@
 
 
                 <LinearLayout
+                    android:id="@+id/bcs26"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -326,7 +305,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="26th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -342,6 +321,7 @@
 
 
                 <LinearLayout
+                    android:id="@+id/bcs25"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -356,7 +336,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="25th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -372,6 +352,7 @@
 
 
                 <LinearLayout
+                    android:id="@+id/bcs24"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -386,7 +367,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="24th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -402,6 +383,7 @@
 
 
                 <LinearLayout
+                    android:id="@+id/bcs23"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -416,65 +398,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
-                            android:textColor="#000000"
-                            android:gravity="center"
-                            android:textSize="25dp"
-                            />
-
-
-                    </soup.neumorphism.NeumorphCardView>
-
-
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="150dp"
-                    android:layout_height="70dp"
-                    android:layout_gravity="center"
-                    android:layout_margin="10sp"
-                    >
-                    <soup.neumorphism.NeumorphCardView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-
-                        >
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:text="34th BCS"
-                            android:textColor="#000000"
-                            android:gravity="center"
-                            android:textSize="25dp"
-                            />
-
-
-                    </soup.neumorphism.NeumorphCardView>
-
-
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="150dp"
-                    android:layout_height="70dp"
-                    android:layout_gravity="center"
-                    android:layout_margin="10sp"
-                    >
-                    <soup.neumorphism.NeumorphCardView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-
-                        >
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="23th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -490,6 +414,7 @@
 
 
                 <LinearLayout
+                    android:id="@+id/bcs22"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -504,7 +429,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="22th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -519,6 +444,7 @@
 
 
                 <LinearLayout
+                    android:id="@+id/bcs21"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -533,7 +459,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="21th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -548,6 +474,7 @@
 
 
                 <LinearLayout
+                    android:id="@+id/bcs20"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -562,7 +489,38 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="20th BCS"
+                            android:textColor="#000000"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            />
+
+
+                    </soup.neumorphism.NeumorphCardView>
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/bcs19"
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10sp"
+                    >
+                    <soup.neumorphism.NeumorphCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="19th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -577,6 +535,7 @@
 
 
                 <LinearLayout
+                    android:id="@+id/bcs18"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -591,7 +550,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="18th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -606,6 +565,7 @@
 
 
                 <LinearLayout
+                    android:id="@+id/bcs17"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -620,7 +580,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="17th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -635,6 +595,7 @@
 
 
                 <LinearLayout
+                    android:id="@+id/bcs16"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -649,7 +610,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="16th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -664,6 +625,7 @@
 
 
                 <LinearLayout
+                    android:id="@+id/bcs15"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -678,7 +640,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="15th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -693,6 +655,7 @@
 
 
                 <LinearLayout
+                    android:id="@+id/bcs14"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
@@ -707,7 +670,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="34th BCS"
+                            android:text="14th BCS"
                             android:textColor="#000000"
                             android:gravity="center"
                             android:textSize="25dp"
@@ -719,6 +682,130 @@
 
 
                 </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/bcs13"
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10sp"
+                    >
+                    <soup.neumorphism.NeumorphCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="13th BCS"
+                            android:textColor="#000000"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            />
+
+
+                    </soup.neumorphism.NeumorphCardView>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/bcs12"
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10sp"
+                    >
+                    <soup.neumorphism.NeumorphCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="12th BCS"
+                            android:textColor="#000000"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            />
+
+
+                    </soup.neumorphism.NeumorphCardView>
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/bcs11"
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10sp"
+                    >
+                    <soup.neumorphism.NeumorphCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="11th BCS"
+                            android:textColor="#000000"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            />
+
+
+                    </soup.neumorphism.NeumorphCardView>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/bcs10"
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10sp"
+                    >
+                    <soup.neumorphism.NeumorphCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="10th BCS"
+                            android:textColor="#000000"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            />
+
+
+                    </soup.neumorphism.NeumorphCardView>
+
+
+
+                </LinearLayout>
+
+
+
 
 
 
@@ -767,7 +854,6 @@
         android:layout_height="60dp"
         android:background="#E91E63"
         android:layout_weight="0.4">
-
 
 
 
